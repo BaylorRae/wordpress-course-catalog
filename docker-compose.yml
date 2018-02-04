@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+
+  wordpress:
+    image: wordpress
+    ports:
+      - 8080:80
+    environment:
+      - WORDPRESS_DB_PASSWORD=password
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    volumes:
+      - ./mysql-db:/var/lib/mysql
