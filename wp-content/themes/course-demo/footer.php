@@ -4,7 +4,7 @@
 <footer class="text-muted">
   <div class="container">
     <p class="float-right">
-      <a href="#">Watch Tutorial</a> |
+      <a href="https://youtu.be/bT0pmeh9Wtg">Watch Tutorial</a> |
       <a href="https://github.com/BaylorRae/wordpress-course-catalog">View Source</a> |
       <a href="#">Back to top</a>
     </p>

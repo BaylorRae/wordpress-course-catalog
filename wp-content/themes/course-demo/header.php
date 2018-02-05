@@ -31,7 +31,7 @@
             <a class="nav-link" href="https://github.com/BaylorRae/wordpress-course-catalog">View Source</a>
           </li>
           <li class="nav-item ml-2">
-            <a class="btn btn-success" href="#">Like This Video!</a>
+            <a class="btn btn-success" href="https://youtu.be/bT0pmeh9Wtg">Like This Video!</a>
           </li>
         </ul>
       </div>
