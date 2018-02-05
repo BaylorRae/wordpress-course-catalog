@@ -27,6 +27,9 @@
             <a class="nav-link" href="<?php echo $item->url ?>"><?php echo $item->title ?></a>
           </li>
           <?php endforeach ?>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/BaylorRae/wordpress-course-catalog">View Source</a>
+          </li>
           <li class="nav-item ml-2">
             <a class="btn btn-success" href="#">Like This Video!</a>
           </li>

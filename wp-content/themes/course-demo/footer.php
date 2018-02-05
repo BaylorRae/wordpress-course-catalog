@@ -4,6 +4,8 @@
 <footer class="text-muted">
   <div class="container">
     <p class="float-right">
+      <a href="#">Watch Tutorial</a> |
+      <a href="https://github.com/BaylorRae/wordpress-course-catalog">View Source</a> |
       <a href="#">Back to top</a>
     </p>
     <p>&copy; 2018 - Baylor Breaks It Down</p>
