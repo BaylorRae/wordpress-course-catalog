@@ -1,0 +1,76 @@
+/*
+ * Theme Name: Course Demo
+ */
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.navbar-brand strong {
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-brand strong::after {
+  display: block;
+  content: '';
+  width: 0%;
+  height: 3px;
+  background-color: #343A40;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand .fa-forward {
+  transition: transform 0.1s ease-in-out;
+}
+
+.navbar-brand:hover strong {
+  letter-spacing: 1px;
+  transform: skewX(5deg);
+}
+
+.navbar-brand:hover strong::after {
+  width: 100%;
+  background-color: #fff;
+}
+
+.navbar-brand:hover .fa-forward {
+  transform: translateY(5px) rotate(-15deg);
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
